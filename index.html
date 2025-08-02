@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoGreen | Turning Waste into Climate Action</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img id="logo" src="./assets/IMG-20250517-WA0038.jpg" alt="logo" />
+        <button id="nav-toggle" aria-label="Open Menu">&#9776;</button>
+        <ul id="nav-menu">
+          <li class="active">HOME</li>
+          <li>ABOUT</li>
+          <li>DONATE</li>
+          <li>BLOG</li>
+        </ul>
+      </nav>
+    </header>
+    <div id="Hero">
+      <h1>  
+        Turning Waste into cash One Smart Bin at a Time.
+      </h1>
+    </div>
+    <div id="action">
+      <h1>
+        GoGreen is a climate-tech platform transforming urban sanitation using smart bins, real-time dashboards, and  household rewards.<br>
+        Our system promotes early waste segregation, optimized collection, and traceable recycling to reduce emissions and landfill overflow.<br>
+        We are creating Africa’s first scalable waste intelligence system that empowers cities to fight climate change from the ground up.
+      </h1>
+      <button id="cta-btn">Join the Movement</button>
+    </div>
+    <script src="web.js"></script>
+    <script>
+      // Hamburger menu toggle
+      document.getElementById('nav-toggle').onclick = function() {
+        document.getElementById('nav-menu').classList.toggle('open');
+      };
+    </script>
+  </body>
+</html>
